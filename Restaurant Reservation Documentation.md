@@ -19,19 +19,61 @@
 
 ## Project Features and Characteristics
 
-
-
-
-
+Reservation Module
+• Booking: Customers select a date, time, and count of people to make a table 
+reservation.
+• Calendar: Shows which times are available or already booked.
+• Confirmation: Sends a message to confirm the reservation.
+• Customer Records: Keeps track of past reservations.
+Table 
+• Table Map: Shows where tables are in the restaurant.
+• Assigning Tables: Puts customers at tables based on their booking.
+• Live Updates: Shows if tables are free, reserved, or in use.
+User Module
+• Customer Info: Saves customer details like name and preferences.
+• Staff Roles: Handles different permissions for admins, hosts, and waiters.
+• Contact: Lets staff send messages to customers.
+Reports Module
+• Booking Reports: Shows daily, weekly, and monthly booking details.
+• Table Use: Tracks which tables are used most often.
+Payment Module
+• Online Payment: Let customers pay when booking.
+• Payment Records: Tracks which reservations are paid for.
+Notification Module
+• Reminders: Sends reminders to customers about their reservations.
+• Cancellation Notices: Alerts staff and customers if a booking is canceled.
+Feedback Module
+• Feedback: Asks customers how their dining experience was.
+• Ratings: Let customers rate their experience.
+• Responses: Allows staff to reply to feedback.
 
 
 ## Project Scope
 
+The purpose of the restaurant reservation system is to make easier and organized the 
+process for reserving tables, managing these bookings, and handling interactions with 
+customers. The system will enable customers to book their desired tables through system, see 
+real-time availability of seats, and get confirmation details via email. It also includes functions 
+for managing tables which helps in assigning them quickly by restaurant workers as well as 
+keeps track on status all day long (open/closed). The system will handle user management, 
+giving the right to customers and staff to make profiles and enter the system based on their 
+roles. The system also provides reports about reservations, table use rates, as well as feedback 
+from customers. These details offer important information for managing a restaurant effectively. 
+With regards to payment section it is going to assist in making transactions online easier; 
+meanwhile notification area makes certain that all reminders or updates related with 
+customer's bookings are sent out promptly. Lastly, the module for feedback will gather and 
+handle customer reviews, aiding the restaurant in ongoing enhancement of its services.
 
-
-
-
-
+Limitations
+Though the restaurant reservation system intends to include necessary functions, there 
+are a few restrictions. The main concentration is on dealing with table reservations and it might 
+not seamlessly blend in with other systems for restaurant management like inventory or staff 
+scheduling because of its limited scope. For real-time updates and notifications, you require a 
+constant internet connection that could impact performance if the connectivity is weak or 
+unstable. The user management module will have basic role assignments, but it may not 
+support more complex permissions. The system can process online payments, but it might lack 
+advanced financial reporting. Lastly, while the system will generate standard reports, custom 
+report generation might be limited.
 
 
 
@@ -64,15 +106,83 @@
 
 ## Database Architecture
 
-### Data Dictionary
+### Data Dictionary**
 
+---
 
+#### **Table 1: USER**
 
+| **FIELD NAME** | **DESCRIPTION**                             | **DATA TYPE** | **LENGTH** | **SAMPLE**             |
+|----------------|---------------------------------------------|---------------|------------|------------------------|
+| USER_ID        | Unique identification of the user           | String        | 255        | USER123456             |
+| USERNAME       | Username for login                          | String        | 255        | janedoe                |
+| PASSWORD       | User's password (hashed)                    | String        | 255        | ******                 |
+| EMAIL          | User's email address                        | String        | 255        | janedoe@example.com    |
+| PHONE_NUMBER   | User's contact number                       | String        | 20         | 09123456789            |
+| ROLE           | Role of the user                            | String        | 50         | Customer / Staff       |
 
+---
 
+#### **Table 2: RESERVATION**
 
+| **FIELD NAME**        | **DESCRIPTION**                             | **DATA TYPE** | **LENGTH** | **SAMPLE**             |
+|-----------------------|---------------------------------------------|---------------|------------|------------------------|
+| RESERVATION_ID        | Unique identification of the reservation    | String        | 255        | Reserve12345           |
+| USER_ID               | ID of the customer making the reservation   | String        | 255        | USER123456             |
+| RESERVATION_DATE      | Date of the reservation                     | Date          |            | 2024-08-21             |
+| RESERVATION_TIME      | Time of the reservation                     | Time          |            | 6:00 pm                |
+| GUESTS                | Number of guests                            | Integer       |            | 4                      |
+| TABLE_ID              | ID of the reserved table                    | String        | 255        | TABLE002               |
+| STATUS                | Status of the reservation                   | String        | 50         | Confirmed / Cancelled  |
+| CREATED               | Date timestamp of reservation creation      | Date          |            | 2024-08-21 - 2:25 pm   |
 
+---
 
+#### **Table 3: TABLE**
+
+| **FIELD NAME** | **DESCRIPTION**                        | **DATA TYPE** | **LENGTH** | **SAMPLE** |
+|----------------|----------------------------------------|---------------|------------|------------|
+| TABLE_ID       | Unique identification of the table     | String        | 255        | TABLE002   |
+| TABLE_NUMBER   | Table number in the restaurant         | String        | 50         | 12         |
+| SEATS          | Number of seats at the table           | Integer       |            | 4          |
+| STATUS         | Status of the table                    | String        | 50         | Available / Reserved |
+
+---
+
+#### **Table 4: PAYMENT**
+
+| **FIELD NAME**       | **DESCRIPTION**                              | **DATA TYPE** | **LENGTH** | **SAMPLE**  |
+|----------------------|----------------------------------------------|---------------|------------|-------------|
+| PAYMENT_ID           | Unique identification of the payment        | String        | 255        | PAY456789   |
+| RESERVATION_ID       | ID of the related reservation               | String        | 255        | RES789123   |
+| USER_ID              | ID of the customer making the payment       | String        | 255        | USER123456  |
+| PAYMENT_AMOUNT       | Total amount paid                           | Decimal       |            | 500.00      |
+| PAYMENT_STATUS       | Status of the payment                       | String        | 50         | Completed / Pending |
+| PAYMENT_DATE         | Date and time of payment                    | Date          |            | 2024-08-21 - 2:30 pm |
+
+---
+
+#### **Table 5: FEEDBACK**
+
+| **FIELD NAME**   | **DESCRIPTION**                                | **DATA TYPE** | **LENGTH** | **SAMPLE**             |
+|------------------|----------------------------------------------|---------------|------------|------------------------|
+| FEEDBACK_ID      | Unique identification of the feedback       | String        | 255        | Feedback123456         |
+| USER_ID          | ID of the customer giving feedback           | String        | 255        | USER123456             |
+| RESERVATION_ID   | ID of the related reservation                | String        | 255        | Reserve789123          |
+| RATING           | Customer's rating                            | Integer       |            | 5                      |
+| COMMENTS         | Customer's comments                          | String        | 500        | Excellent service!     |
+| CREATED          | Date timestamp of feedback submission        | Date          |            | 2024-08-21 – 3:00 pm   |
+
+---
+
+#### **Table 6: NOTIFICATION**
+
+| **FIELD NAME**     | **DESCRIPTION**                              | **DATA TYPE** | **LENGTH** | **SAMPLE**                   |
+|--------------------|----------------------------------------------|---------------|------------|------------------------------|
+| NOTIFICATION_ID    | Unique identification of the notification   | String        | 255        | Notif456789                  |
+| USER_ID            | ID of the user receiving the notification    | String        | 255        | USER123456                   |
+| TYPE               | Type of notification                        | String        | 50         | Reminder / Cancellation      |
+| MESSAGE            | Content of the notification                 | String        | 255        | Your reservation is confirmed!|
 
 
 ## ERD
