@@ -9,32 +9,46 @@ A restaurant reservation system also has other valuable features including real-
 
 ## Project Features and Characteristics
 
-Reservation Module
+
+## 1. Reservation Module
+
 • Booking: Customers select a date, time, and count of people to make a table 
-reservation.
+ reservation.
+
 • Calendar: Shows which times are available or already booked.
+
 • Confirmation: Sends a message to confirm the reservation.
+
 • Customer Records: Keeps track of past reservations.
-Table 
+
+## 2. Table 
+
 • Table Map: Shows where tables are in the restaurant.
+
 • Assigning Tables: Puts customers at tables based on their booking.
+
 • Live Updates: Shows if tables are free, reserved, or in use.
-User Module
+
+## 3. User Module
+
 • Customer Info: Saves customer details like name and preferences.
+
 • Staff Roles: Handles different permissions for admins, hosts, and waiters.
+
 • Contact: Lets staff send messages to customers.
-Reports Module
+
+## 4. Reports Module
+
 • Booking Reports: Shows daily, weekly, and monthly booking details.
+
 • Table Use: Tracks which tables are used most often.
-Payment Module
-• Online Payment: Let customers pay when booking.
-• Payment Records: Tracks which reservations are paid for.
-Notification Module
-• Reminders: Sends reminders to customers about their reservations.
-• Cancellation Notices: Alerts staff and customers if a booking is canceled.
-Feedback Module
+
+## 5. Feedback Module
+
 • Feedback: Asks customers how their dining experience was.
+
 • Ratings: Let customers rate their experience.
+
 • Responses: Allows staff to reply to feedback.
 
 
@@ -42,19 +56,24 @@ Feedback Module
 
 The purpose of the restaurant reservation system is to make easier and organized the 
 process for reserving tables, managing these bookings, and handling interactions with 
-customers. The system will enable customers to book their desired tables through system, see 
-real-time availability of seats, and get confirmation details via email. It also includes functions 
-for managing tables which helps in assigning them quickly by restaurant workers as well as 
-keeps track on status all day long (open/closed). The system will handle user management, 
-giving the right to customers and staff to make profiles and enter the system based on their 
-roles. The system also provides reports about reservations, table use rates, as well as feedback 
-from customers. These details offer important information for managing a restaurant effectively. 
+customers. 
+The system will enable customers to book their desired tables through system, see 
+real-time availability of seats, and get confirmation details via email. 
+It also includes functions for managing tables which helps in assigning them quickly 
+by restaurant workers as well as keeps track on status all day long (open/closed). 
+The system will handle user management, giving the right to customers and staff 
+to make profiles and enter the system based on their roles.
+The system also provides reports about reservations, table use rates, as well as feedback 
+from customers. 
+These details offer important information for managing a restaurant effectively.
 With regards to payment section it is going to assist in making transactions online easier; 
 meanwhile notification area makes certain that all reminders or updates related with 
-customer's bookings are sent out promptly. Lastly, the module for feedback will gather and 
+customer's bookings are sent out promptly. 
+Lastly, the module for feedback will gather and 
 handle customer reviews, aiding the restaurant in ongoing enhancement of its services.
 
-Limitations
+## Limitations
+
 Though the restaurant reservation system intends to include necessary functions, there 
 are a few restrictions. The main concentration is on dealing with table reservations and it might 
 not seamlessly blend in with other systems for restaurant management like inventory or staff 
@@ -84,12 +103,11 @@ report generation might be limited.
 | 5       | Customer   | Modify Reservation          | Allow users to change date, time, or number of guests.         |
 | 6       | Customer   | Cancel Reservation          | Allow users to cancel their reservation.                       |
 | 7       | Customer   | Receive Confirmation        | Send a confirmation email/SMS after reservation is made or modified. |
-| 8       | Customer   | Payment Processing          | Allow users to pay for their reservation online.               |
+| 8       | Customer   | Payment Process             | Allow user to Pay Using QR code                                |
 | 9       | Admin      | Admin Login                 | Allow admins to log in with admin credentials.                 |
-| 10      | Admin      | Manage Reservations         | Allow admins to view, modify, or cancel reservations.          |
+| 10       | Admin      | Manage Reservations         | Allow admins to view, modify, or cancel reservations.          |
 | 11      | Admin      | View Reports                | Allow admins to generate and view reservation reports.         |
 | 12      | Admin      | Manage Tables               | Allow admins to manage table details in the system.            |
-| 13      | Admin      | System Notifications        | Send notifications for important events (e.g., cancellations). |
 
 ### use case
 ![image](https://github.com/isaaczacck/Restaurant-Reservation-Documentation/blob/main/Use%20Case.jpg?raw=true)
@@ -138,20 +156,15 @@ report generation might be limited.
 | STATUS         | Status of the table                    | String        | 50         | Available / Reserved |
 
 ---
-
 #### **Table 4: PAYMENT**
 
-| **FIELD NAME**       | **DESCRIPTION**                              | **DATA TYPE** | **LENGTH** | **SAMPLE**  |
-|----------------------|----------------------------------------------|---------------|------------|-------------|
-| PAYMENT_ID           | Unique identification of the payment        | String        | 255        | PAY456789   |
-| RESERVATION_ID       | ID of the related reservation               | String        | 255        | RES789123   |
-| USER_ID              | ID of the customer making the payment       | String        | 255        | USER123456  |
-| PAYMENT_AMOUNT       | Total amount paid                           | Decimal       |            | 500.00      |
-| PAYMENT_STATUS       | Status of the payment                       | String        | 50         | Completed / Pending |
-| PAYMENT_DATE         | Date and time of payment                    | Date          |            | 2024-08-21 - 2:30 pm |
+| **FIELD NAME** | **DESCRIPTION**                                                 | **DATA TYPE** | **LENGTH** | **SAMPLE** |
+|----------------|-----------------------------------------------------------------|---------------|------------|------------|
+| USER_INFO      | Unique identification of the table                              | String   | 255     | TABLE002   |
+| REFERENE_N0.   | unique alphanumeric code assigned to each transaction in GCash.|Interger | 255       | 123456789  |
+
 
 ---
-
 #### **Table 5: FEEDBACK**
 
 | **FIELD NAME**   | **DESCRIPTION**                                | **DATA TYPE** | **LENGTH** | **SAMPLE**             |
@@ -164,15 +177,6 @@ report generation might be limited.
 | CREATED          | Date timestamp of feedback submission        | Date          |            | 2024-08-21 – 3:00 pm   |
 
 ---
-
-#### **Table 6: NOTIFICATION**
-
-| **FIELD NAME**     | **DESCRIPTION**                              | **DATA TYPE** | **LENGTH** | **SAMPLE**                   |
-|--------------------|----------------------------------------------|---------------|------------|------------------------------|
-| NOTIFICATION_ID    | Unique identification of the notification   | String        | 255        | Notif456789                  |
-| USER_ID            | ID of the user receiving the notification    | String        | 255        | USER123456                   |
-| TYPE               | Type of notification                        | String        | 50         | Reminder / Cancellation      |
-| MESSAGE            | Content of the notification                 | String        | 255        | Your reservation is confirmed!|
 
 
 ## ERD
