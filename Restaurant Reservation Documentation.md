@@ -182,7 +182,7 @@ report generation might be limited.
 ## ERD
 
 For Best View
-https://www.canva.com/design/DAGOpYLp1fs/5ACVfuyI1XscCkCIyhPCZw/edit?utm_content=DAGOpYLp1fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+[https://www.canva.com/design/DAGOpYLp1fs/5ACVfuyI1XscCkCIyhPCZw/edit?utm_content=DAGOpYLp1fs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.figma.com/board/s2n0rJsW0DadPWtlJFZk2Q/ERD?t=Zdc5cbdIlPAcc5YZ-6)
 
 
 ![image](https://raw.githubusercontent.com/isaaczacck/Restaurant-Reservation-Documentation/cc880594effc5437aea1ffa31ed85b05d795d65e/ERD.png)
