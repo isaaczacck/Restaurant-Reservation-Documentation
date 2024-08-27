@@ -75,40 +75,79 @@ To develop a SYSTEM_NAME APP that will help manage the ______ with the following
 
  Benchmarking for Samgyeopsal Restaurant Reservation System vs. Gen Korean BBQ
 
-1. Booking Conversion Rate
+ 1. Booking Conversion Rate
+   
 •	Samgyeopsal Restaurant: Currently targeting a 70% booking conversion rate.
+
 •	Gen Korean BBQ: Known to achieve a 75% conversion rate.
-•	Comparison: Gen Korean BBQ has a slightly higher conversion rate, suggesting their reservation system is very effective. To improve our rate, we could streamline our booking process and eliminate any obstacles. Checking how they design their booking page might provide insights into making our own system more user-friendly.
+
+•	Comparison: Gen Korean BBQ has a slightly higher conversion rate, suggesting their reservation system 
+is very effective. To improve our rate, we could streamline our booking process and eliminate any obstacles. 
+Checking how they design their booking page might provide insights into making our own system more user-friendly.
+
 
 2. Repeat Booking Rate
+   
 •	Samgyeopsal Restaurant: Aiming for a 40% repeat booking rate.
+
 •	Gen Korean BBQ: Likely benefits from a strong customer loyalty program that encourages repeat visits. 
-•	Comparison: Gen Korean BBQ’s repeat bookings may be driven by their effective loyalty programs. We should consider introducing or enhancing a loyalty program, offering incentives like discounts or special deals to encourage repeat customers. 
+
+•	Comparison: Gen Korean BBQ’s repeat bookings may be driven by their effective loyalty programs. 
+We should consider introducing or enhancing a loyalty program, offering incentives like discounts 
+or special deals to encourage repeat customers. 
+
 
 3. No-Show Rate
+   
 •	Samgyeopsal Restaurant: Working to keep the no-show rate below 10%.
+
 •	Gen Korean BBQ: Likely uses automated reminders and possibly requires deposits to reduce no-shows.
-•	Comparison: If Gen Korean BBQ has a lower no-show rate, their use of reminders and deposit policies might be key. Implementing automated email and SMS reminders for reservations, and possibly requiring a small deposit, could help reduce our no-show rate.
+
+•	Comparison: If Gen Korean BBQ has a lower no-show rate, their use of reminders and deposit policies might be key. 
+Implementing automated email and SMS reminders for reservations, and possibly requiring a small deposit, could help 
+reduce our no-show rate.
+
 
 4. Table Turnover Time
+   
 •	Samgyeopsal Restaurant: Targeting a turnover time of 45-60 minutes.
+
 •	Gen Korean BBQ: Achieves quick table turnover, possibly due to efficient operations and clear communication about meal times.
-•	Comparison: Gen Korean BBQ’s quick turnover might be due to their effective table management and clear policies. We should review their approach and consider improving our staff coordination and clearly communicating dining times to customers.
+
+•	Comparison: Gen Korean BBQ’s quick turnover might be due to their effective table management and clear policies. 
+We should review their approach and consider improving our staff coordination and clearly communicating dining times to customers.
+
 
 5. Reservation Lead Time
+    
 •	Samgyeopsal Restaurant: Aiming for a lead time of 1-2 weeks.
+
 •	Gen Korean BBQ: Manages a similar or shorter lead time, potentially through strong promotions.
-•	Comparison: If Gen Korean BBQ effectively encourages early bookings through promotions, we should adopt similar strategies. Offering discounts or special deals for early reservations could help increase our lead time and better plan for busy periods.
+
+•	Comparison: If Gen Korean BBQ effectively encourages early bookings through promotions, we should adopt similar strategies. 
+Offering discounts or special deals for early reservations could help increase our lead time and better plan for busy periods.
+
 
 6. User Experience
+    
 •	Samgyeopsal Restaurant: Focusing on making the reservation process easy for customers.
+
 •	Gen Korean BBQ: Provides a smooth and intuitive booking experience.
-•	Comparison: Gen Korean BBQ’s user-friendly booking system is likely a result of their focus on simplicity. We should examine their system for features that enhance user experience, such as easy navigation and mobile compatibility, and apply similar improvements to our own system.
+
+•	Comparison: Gen Korean BBQ’s user-friendly booking system is likely a result of their focus on simplicity. 
+We should examine their system for features that enhance user experience, such as easy navigation and mobile compatibility, 
+and apply similar improvements to our own system.
+
 
 7. Customer Communication
+    
 •	Samgyeopsal Restaurant: Planning to use automated reminders.
+
 •	Gen Korean BBQ: Likely has effective communication strategies, including timely reservation confirmations and reminders.
-•	Comparison: If Gen Korean BBQ excels in customer communication, their methods could serve as a model for us. Implementing automated reservation confirmations and reminders, along with follow-up messages, could enhance our customer engagement.
+
+•	Comparison: If Gen Korean BBQ excels in customer communication, their methods could serve as a model for us. 
+Implementing automated reservation confirmations and reminders, along with follow-up messages, could enhance our 
+customer engagement.
 
 
 ## G. Estimated Project Duration:
