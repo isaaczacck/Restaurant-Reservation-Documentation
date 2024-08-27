@@ -2,10 +2,11 @@
 
 ## INTRODUCTION
 
-The restaurant industry is highly competitive, and the ability to effectively handle reservation is important to keep customers happy and run smoothly. A software solution for a restaurant reservation system simplifies the way tables are booked, guests’ lists are managed, and seat arrangement is done. It is through this that restaurants can have a smooth operation with regards to reservations thereby reducing chances of over-booking or miscommunication on such matters. Through automation of the process of making reservations, restaurants can be able to optimize their seating capacity while giving customers an easy time at the same time.
+ Today, we live in the world where the internet is of absolute importance, as 3 billion people or 45% of the population of the world are using the internet. Due to such rapid developments, the number of people willing to offer their food online services, with the expectation to grow to 60%, has also increased. Getting the Meals people reside in different regions and cities. Nevertheless, there are many restaurants that cannot find enough customers mainly because of lack of marketing and unnecessary indifference to their establishments.
 
-A restaurant reservation system also has other valuable features including real-time updates, customer management and integration with online booking platforms. These features assist in ensuring that managers in restaurants have up to date records concerning all reservations, tracking client preferences as well as optimizing table turnover rates. Equally important, it can provide automated reminders about upcoming reservations hence minimizing instances of no shows by clients. To sum it all up a Restaurant Reservation System culminates into efficient restaurant operations as well improved eating experiences among their esteemed customers.
+ In order to solve this problem we propose to design an innovative online resource which will make life easier for users and allow them to find available tables at restaurants and see their menus and other offers. This system will be internet based and available on the smartphones, computers and any personal devices that can access the internet. The project aims to cater many people in the Philippines.
 
+ In a word, the Internet has already become an integral part of people's lives and this is the reason why about 3 billions people worldwide watch it. With such rapid growth, more people have started looking for dining places, with numerous individuals nowadays making prior reservations to avoid disappointment.
 
 ## Project Features and Characteristics
 
