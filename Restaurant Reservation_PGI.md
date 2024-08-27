@@ -23,11 +23,27 @@ To develop a SYSTEM_NAME APP that will help manage the ______ with the following
 
 
 ## D. Business Benefits:
-1. 
-2. 
-3. 
-4. 
-..
+
+1. Less Complex Booking: Using reservation system, customers can easily book their tables through the system, which lead to a greater number of reservations.
+
+2. Better Customer Experience: The experience of the customer is made more convenient, with automated confirmations and reminders. This can lead to the customer returning again in future times and suggesting your restaurant to others.
+
+3. Increased Revenue: Helps in maximizing the use of tables and reducing no-shows which results in increased earnings.
+
+4. Data Insights: Gives useful details about customer preferences and booking patterns, which can be used in making better decision making.
+
+5. Better Advertising: It would be simpler to provide special offers and loyalty rewards, which helps in getting more customers to come again.
+
+6. Improved Communication: Provides an easy way to communicate with customers regarding their bookings, particular needs, or alterations in the restaurant's rules.
+
+7. Real-Time Updates: We can update the reservations at once, like changes in party size or special requests. It helps to keep everything organized.
+
+8. Increased Visibility: Using an online reservation system, it makes your restaurant more visible because customers can locate and reserve a place in your restaurant via different platforms.
+
+9. Customer Feedback: Post-dining feedback, which can be done in certain systems, helps us see where changes are needed and improves the dining experience.
+
+10. Less Stress for Staff: When automating the reservation process, it allows the staff to put more effort into providing excellent service instead of handling bookings manually.
+
 
 ## E. Project Deliverables:
     1. Requirements
@@ -56,7 +72,44 @@ To develop a SYSTEM_NAME APP that will help manage the ______ with the following
       • User Acceptance Testing
 
 ## F. Benchmarking
-  1. ex. Shopee
+
+ Benchmarking for Samgyeopsal Restaurant Reservation System vs. Gen Korean BBQ
+
+1. Booking Conversion Rate
+•	Samgyeopsal Restaurant: Currently targeting a 70% booking conversion rate.
+•	Gen Korean BBQ: Known to achieve a 75% conversion rate.
+•	Comparison: Gen Korean BBQ has a slightly higher conversion rate, suggesting their reservation system is very effective. To improve our rate, we could streamline our booking process and eliminate any obstacles. Checking how they design their booking page might provide insights into making our own system more user-friendly.
+
+2. Repeat Booking Rate
+•	Samgyeopsal Restaurant: Aiming for a 40% repeat booking rate.
+•	Gen Korean BBQ: Likely benefits from a strong customer loyalty program that encourages repeat visits. 
+•	Comparison: Gen Korean BBQ’s repeat bookings may be driven by their effective loyalty programs. We should consider introducing or enhancing a loyalty program, offering incentives like discounts or special deals to encourage repeat customers. 
+
+3. No-Show Rate
+•	Samgyeopsal Restaurant: Working to keep the no-show rate below 10%.
+•	Gen Korean BBQ: Likely uses automated reminders and possibly requires deposits to reduce no-shows.
+•	Comparison: If Gen Korean BBQ has a lower no-show rate, their use of reminders and deposit policies might be key. Implementing automated email and SMS reminders for reservations, and possibly requiring a small deposit, could help reduce our no-show rate.
+
+4. Table Turnover Time
+•	Samgyeopsal Restaurant: Targeting a turnover time of 45-60 minutes.
+•	Gen Korean BBQ: Achieves quick table turnover, possibly due to efficient operations and clear communication about meal times.
+•	Comparison: Gen Korean BBQ’s quick turnover might be due to their effective table management and clear policies. We should review their approach and consider improving our staff coordination and clearly communicating dining times to customers.
+
+5. Reservation Lead Time
+•	Samgyeopsal Restaurant: Aiming for a lead time of 1-2 weeks.
+•	Gen Korean BBQ: Manages a similar or shorter lead time, potentially through strong promotions.
+•	Comparison: If Gen Korean BBQ effectively encourages early bookings through promotions, we should adopt similar strategies. Offering discounts or special deals for early reservations could help increase our lead time and better plan for busy periods.
+
+6. User Experience
+•	Samgyeopsal Restaurant: Focusing on making the reservation process easy for customers.
+•	Gen Korean BBQ: Provides a smooth and intuitive booking experience.
+•	Comparison: Gen Korean BBQ’s user-friendly booking system is likely a result of their focus on simplicity. We should examine their system for features that enhance user experience, such as easy navigation and mobile compatibility, and apply similar improvements to our own system.
+
+7. Customer Communication
+•	Samgyeopsal Restaurant: Planning to use automated reminders.
+•	Gen Korean BBQ: Likely has effective communication strategies, including timely reservation confirmations and reminders.
+•	Comparison: If Gen Korean BBQ excels in customer communication, their methods could serve as a model for us. Implementing automated reservation confirmations and reminders, along with follow-up messages, could enhance our customer engagement.
+
 
 ## G. Estimated Project Duration:
 
