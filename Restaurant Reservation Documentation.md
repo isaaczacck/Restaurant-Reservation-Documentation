@@ -55,28 +55,28 @@
 
 ## Project Scope
 
-The purpose of the restaurant reservation system is to make easier and organized the 
-process for reserving tables, managing these bookings, and handling interactions with 
+The purpose of the restaurant reservation system is to make easier and organized 
+the process for reserving tables, managing these bookings, and handling interactions with 
 customers. 
 The system will enable customers to book their desired tables through system, see 
-real-time availability of seats, and get confirmation details via email. 
+real-time availability of seats, and get confirmation details via email/sms. 
 It also includes functions for managing tables which helps in assigning them quickly 
-by restaurant workers as well as keeps track on status all day long (open/closed). 
+by restaurant workers as well as keeps track on status all day long. 
 The system will handle user management, giving the right to customers and staff 
-to make profiles and enter the system based on their roles.
+to make profiles and enter the system based on their roles. 
 The system also provides reports about reservations, table use rates, as well as feedback 
 from customers. 
-These details offer important information for managing a restaurant effectively.
-With regards to payment section it is going to assist in making transactions online easier; 
-meanwhile notification area makes certain that all reminders or updates related with 
-customer's bookings are sent out promptly. 
-Lastly, the module for feedback will gather and 
-handle customer reviews, aiding the restaurant in ongoing enhancement of its services.
+These details offer important information for managing a restaurant effectively. 
+Regarding the payment section, it will help streamline online transactions; 
+at the same time, the notification area ensures that all reminders and updates related 
+to customer bookings are sent out promptly. 
+Lastly, the feedback module will collect and manage customer reviews, 
+supporting the restaurant in continuously improving its services.
 
 ## Limitations
 
 Though the restaurant reservation system intends to include necessary functions, there 
-are a few restrictions. The main concentration is on dealing with table reservations and it might 
+are a few restrictions. The main concentration is on dealing with table reservations and it might
 not seamlessly blend in with other systems for restaurant management like inventory or staff 
 scheduling because of its limited scope. For real-time updates and notifications, you require a 
 constant internet connection that could impact performance if the connectivity is weak or 
