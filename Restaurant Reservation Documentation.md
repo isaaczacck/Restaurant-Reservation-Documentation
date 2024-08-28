@@ -95,20 +95,47 @@ report generation might be limited.
 
 ### User Requirements
 
-| **No.** | **User**   | **Feature**                | **Requirement**                                                |
-|---------|------------|----------------------------|----------------------------------------------------------------|
-| 1       | Customer   | User Registration           | Allow users to create an account with name, email, and password. |
-| 2       | Customer   | User Login                  | Allow users to log in using email and password.                |
-| 3       | Customer   | View Available Tables       | Display available tables for selected date and time.           |
-| 4       | Customer   | Make a Reservation          | Allow users to select a table and make a reservation.          |
-| 5       | Customer   | Modify Reservation          | Allow users to change date, time, or number of guests.         |
-| 6       | Customer   | Cancel Reservation          | Allow users to cancel their reservation.                       |
-| 7       | Customer   | Receive Confirmation        | Send a confirmation email/SMS after reservation is made or modified. |
-| 8       | Customer   | Payment Process             | Allow user to Pay Using QR code                                |
-| 9       | Admin      | Admin Login                 | Allow admins to log in with admin credentials.                 |
-| 10       | Admin      | Manage Reservations         | Allow admins to view, modify, or cancel reservations.          |
-| 11      | Admin      | View Reports                | Allow admins to generate and view reservation reports.         |
-| 12      | Admin      | Manage Tables               | Allow admins to manage table details in the system.            |
+| **No.** | **Users**   | **System Features**         | **Requirement**                                                                                                           |
+|---------|-------------|-----------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 1       | Customer    | A. User Registration        | 1. The system must allow users to create an account by entering:                                                            |
+|         |             |                             |    a. Name                                                                                                                |
+|         |             |                             |    b. Email                                                                                                               |
+|         |             |                             |    c. Password                                                                                                           |
+| 2       | Customer    | B. User Login               | 2. The system must allow users to log in by entering:                                                                      |
+|         |             |                             |    a. Email                                                                                                               |
+|         |             |                             |    b. Password                                                                                                           |
+| 3       | Customer    | C. View Available Tables    | 3. The system must display available tables based on:                                                                     |
+|         |             |                             |    a. Selected date                                                                                                       |
+|         |             |                             |    b. Selected time                                                                                                       |
+| 4       | Customer    | D. Make a Reservation       | 4. The system must allow users to make a reservation by entering:                                                           |
+|         |             |                             |    a. Table selection                                                                                                     |
+|         |             |                             |    b. Date                                                                                                               |
+|         |             |                             |    c. Time                                                                                                               |
+|         |             |                             |    d. Number of guests                                                                                                    |
+| 5       | Customer    | E. Modify Reservation       | 5. The system must allow users to modify a reservation by entering:                                                         |
+|         |             |                             |    a. New date                                                                                                           |
+|         |             |                             |    b. New time                                                                                                           |
+|         |             |                             |    c. Updated number of guests                                                                                            |
+| 6       | Customer    | F. Cancel Reservation       | 6. The system must allow users to cancel their reservation.                                                                |
+| 7       | Customer    | G. Receive Confirmation     | 7. The system must send a confirmation via:                                                                              |
+|         |             |                             |    a. Email                                                                                                               |
+|         |             |                             |    b. SMS                                                                                                                 |
+| 8       | Customer    | H. Payment Process          | 8. The system must allow users to pay using:                                                                             |
+|         |             |                             |    a. QR code                                                                                                            |
+| 9       | Admin       | A. Admin Login              | 9. The system must allow admins to log in using:                                                                          |
+|         |             |                             |    a. Admin credentials                                                                                                   |
+| 10      | Admin       | B. Manage Reservations      | 10. The system must allow admins to:                                                                                     |
+|         |             |                             |    a. View reservations                                                                                                  |
+|         |             |                             |    b. Modify reservations                                                                                               |
+|         |             |                             |    c. Cancel reservations                                                                                               |
+| 11      | Admin       | C. View Reports             | 11. The system must allow admins to generate and view:                                                                    |
+|         |             |                             |    a. Daily reports                                                                                                     |
+|         |             |                             |    b. Weekly reports                                                                                                    |
+|         |             |                             |    c. Monthly reports                                                                                                   |
+|         |             |                             |    d. Semestral reports                                                                                                 |
+| 12      | Admin       | D. Manage Tables            | 12. The system must allow admins to manage:                                                                             |
+|         |             |                             |    a. Table details                                                                                                     |
+
 
 ### use case
 ![image](https://github.com/isaaczacck/Restaurant-Reservation-Documentation/blob/main/Use%20Case.jpg?raw=true)
