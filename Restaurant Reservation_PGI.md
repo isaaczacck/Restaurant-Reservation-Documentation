@@ -11,6 +11,7 @@ In this chapter the project Concept will be covered where the general as well as
 
 ## B. Project Description:
 
+In the current stage of the digital era, where the internet has infiltrated the world's daily lives, online services are witnessing an increasing demand globally especially in the food and eating domain. The demand of the Restaurant Reservation System is focusing on answering the issues for businesses to attract guests and booking tables successfully. Given the significant number of people who are now using online services to book meals, the Restaurant Reservation System will offer the market a novel solution that is internet-based and accessible via cellphones, PCs, and other internet-connected devices on the web. The technology, the Restaurant Reservation System, is designed for the market here in the Philippines, will provide improved convenience for better identification of table availability and bookings, therefore, improving convenience for consumers and efficiency for the restaurant. 
 
 ## C. Project Objectives:
 
@@ -152,5 +153,30 @@ customer engagement.
 
 ## G. Estimated Project Duration:
 
+The estimated project duration is 22 weeks.
+
+1. Planning & Requirements Gathering: 3 weeks
+
+2. System Design: 3 weeks
+
+3. Development: 13 weeks
+
+                     •   Reservation Module: 3 weeks
+   
+                     •   Table Management Module: 3 weeks
+   
+                     •   User Management Module: 2 week
+
+                     •   Reports Module: 2 week
+   
+                     •   Feedback and Notification Modules: 3 week
+
+4. Testing: 2 weeks
+
+1. Unit Testing: 1 week
+
+                      • Integration Testing & User Acceptance Testing: 1 week
+
+                      •  Deployment & Training: 1 week
 
 Prepared by:
