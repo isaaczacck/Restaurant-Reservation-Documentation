@@ -15,13 +15,19 @@ In the current stage of the digital era, where the internet has infiltrated the 
 
 ## C. Project Objectives:
 
-To develop a SYSTEM_NAME APP that will help manage the ______ with the following features:
-1.
-2.
-3.
-4.
-..
+## General Objectives:
 
+1. To provide a web based restaurant booking so as to comfort restaurant and customers all old ways in making and receiving reservations as well as solving problems which restaurant and customers may encounter.
+
+2. Aimed to create a support tool whereby even the time of a business is utilized effectively to make quicker transactions by reducing the workload of work for the employees.
+
+## Specific Objectives:
+
+1. A booking framework that facilitates Mr Samgyup in improving the restaurant’s seating plan so that customers can serve more in terms of numbers as well as be more accurate on the waiting time of the guests.
+
+2. As the case of Mr Samgyup, restaurant reservations are very beneficial to the perspective customers of the business as they get to self-book and pay via the Gcash application and keep the business operating even if the employees left for the day.
+
+3. In order that the newly developed system can be put to practical use and its functionality can be tested.
 
 ## D. Business Benefits:
 
