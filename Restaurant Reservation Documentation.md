@@ -89,7 +89,7 @@ report generation might be limited.
 
 ## Work breakdown Structure
 
-![image](https://raw.githubusercontent.com/isaaczacck/Restaurant-Reservation-Documentation/cb6a33fd2916ab03813855095969cbb0fcac2a7b/Screenshot%202024-08-23%20114402.png)
+![image](https://github.com/isaaczacck/Restaurant-Reservation-Documentation/blob/9207c0ce15a2b6712c5d1a1c9448121c9ad31712/Work%20Breakdown%20Structure.png)
 
 ## Functional Requirements
 
@@ -138,7 +138,7 @@ report generation might be limited.
 
 
 ### use case
-![image](https://github.com/isaaczacck/Restaurant-Reservation-Documentation/blob/main/Use%20Case.jpg?raw=true)
+![image](https://github.com/isaaczacck/Restaurant-Reservation-Documentation/blob/9207c0ce15a2b6712c5d1a1c9448121c9ad31712/Use%20Case.png)
 
 ## Database Architecture
 
