@@ -165,11 +165,11 @@ report generation might be limited.
 |-----------------------|---------------------------------------------|---------------|------------|------------------------|
 | RESERVATION_ID        | Unique identification of the reservation    | String        | 255        | Reserve12345           |
 | USER_ID               | ID of the customer making the reservation   | String        | 255        | USER123456             |
+| TABLE_ID              | ID of the reserved table                    | String        | 255        | TABLE002               |
+| STATUS                | Status of the reservation                   | String        | 50         | Confirmed / Cancelled  |
 | RESERVATION_DATE      | Date of the reservation                     | Date          |            | 2024-08-21             |
 | RESERVATION_TIME      | Time of the reservation                     | Time          |            | 6:00 pm                |
 | GUESTS                | Number of guests                            | Integer       |            | 4                      |
-| TABLE_ID              | ID of the reserved table                    | String        | 255        | TABLE002               |
-| STATUS                | Status of the reservation                   | String        | 50         | Confirmed / Cancelled  |
 | CREATED               | Date timestamp of reservation creation      | Date          |            | 2024-08-21 - 2:25 pm   |
 
 ---
@@ -180,8 +180,8 @@ report generation might be limited.
 |----------------|----------------------------------------|---------------|------------|------------|
 | TABLE_ID       | Unique identification of the table     | String        | 255        | TABLE002   |
 | TABLE_NUMBER   | Table number in the restaurant         | String        | 50         | 12         |
-| SEATS          | Number of seats at the table           | Integer       |            | 4          |
 | STATUS         | Status of the table                    | String        | 50         | Available / Reserved |
+| SEATS          | Number of seats at the table           | Integer       |            | 4          |
 
 ---
 #### **Table 4: PAYMENT**
