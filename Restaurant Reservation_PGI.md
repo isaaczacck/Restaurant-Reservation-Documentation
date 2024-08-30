@@ -5,9 +5,19 @@ Project Title: Restaurant Reservation
 
 ## A. Problem Statement:
 
-Each and every business be it a restaurant or an institution, has to consider efficiency and effectiveness as its primary concern. There are also many instances where the diners and the restaurant managers experience a lot of difficulties in the ordering or reserving of a table and when mistakes occur in either one of the phases of ordering or reservation, it usually affects the overall functioning of the restaurant’s business. It seems that it's important to conceptualize and design an online platform which will facilitate people in either placing an order for food or booking a table at their in an effective manner. With that, Additionally, considered creating and working out the online booking system that would allow the restaurants to control the reserving of the tables to avoid the customers lining up for ages to eat out in the house.
+This investigation is specifically about improving the booking process for Mr. Samgyup in Camarin, Caloocan. There are several important questions that have appeared as the restaurant attempts to uplift customer experience and make operations more efficient:
 
-In this chapter the project Concept will be covered where the general as well as specific objectives which will ultimately lead the goals of developing the project will be described. In this chapter, the chronology of the development of the project will also be given, indicating how long each developmental activity will take and when the activity will commence and complete,
+1. How can they deliver a smooth and easy-to-understand booking experience for customers using different devices to lessen annoyance and enhance reservations?
+   
+2. What types of plans can Mr. Samgyup use for correct real-time table management, avoiding problems like too many bookings or not fully using the tables?
+ 
+3. What measures can Mr. Samgyup undertake to ensure stable and trustworthy correspondence about reservations, confirmations, and reminders so as to lessen the instances of no-shows and improve satisfaction among their customers?
+ 
+4. What steps can Mr. Samgyup put in action for safe management of customer information? How will he make sure that services are personalized, yet still comply with privacy laws?
+ 
+5. How can we best arrange the tables to take into account things like size of party, time of reservation and what customers prefer? 
+
+These queries will steer the investigation of personalized tactics to assist Mr. Samgyup in enhancing its system for reservations, management of tables, practices in communication and secure data keeping.
 
 ## B. Project Description:
 
@@ -17,17 +27,26 @@ In the current stage of the digital era, where the internet has infiltrated the 
 
 ## General Objectives:
 
-1. To provide a web based restaurant booking so as to comfort restaurant and customers all old ways in making and receiving reservations as well as solving problems which restaurant and customers may encounter.
-
-2. Aimed to create a support tool whereby even the time of a business is utilized effectively to make quicker transactions by reducing the workload of work for the employees.
+Creating a strong, easy-to-use and efficient restaurant booking system to enables customers for making table reservations smoothly on the internet. This will improve customer happiness and make the restaurant's process of reservation management better optimized.
 
 ## Specific Objectives:
 
-1. A booking framework that facilitates Mr Samgyup in improving the restaurant’s seating plan so that customers can serve more in terms of numbers as well as be more accurate on the waiting time of the guests.
+1. Build a User Interface (UI): Construct an easy-to-understand, quick to respond and good-looking interface for customers. This will allow them to comfortably browse open slots, book those they prefer and supervise their bookings.
+   
+2. Put into Action Checking of Availability in Real-Time: It is necessary that the system gives updates about table availability instantly. This will help avoid overbooking and make the reservation process smoother.
+   
+3. Make Active Automated Approval and Alerts: Incorporate automated emails/SMS approvals and reminders for customers and staff. This will decrease missed appointments and enhance communication.
+   
+4. Make an Administrative Dashboard: Build a dashboard in the backend for restaurant managers. This will allow them to see, manage and analyze reservations. The features should include managing cancellations, understanding customer preferences and dealing with special requests.
+   
+5. Put in place Customer Data Management: Set up a system for safe storage of customer details such as previous reservation history, to facilitate service that's tailored to the individual.
+   
+6. Improve the Booking Algorithm: Create an algorithm which effectively assigns tables depending on party size, time slots and special needs. This will maximize restaurant capacity and customer happiness.
+    
+7. Integrate Payment: Allow customers to make payments for reservations if required.
+    
+8. The system should work on many devices like desktops, tablets, mobile phones and be compatible with main operating systems and internet browsers.
 
-2. As the case of Mr Samgyup, restaurant reservations are very beneficial to the perspective customers of the business as they get to self-book and pay via the Gcash application and keep the business operating even if the employees left for the day.
-
-3. In order that the newly developed system can be put to practical use and its functionality can be tested.
 
 ## D. Business Benefits:
 
